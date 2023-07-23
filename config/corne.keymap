@@ -30,7 +30,7 @@
 
             label = "Base";
             bindings = <
-         &kp TAB         &lt 3 Q  &kp W  &kp E     &kp R      &kp T      &kp Y          &kp U      &kp I    &kp O                    &kp P    &kp BACKSLASH
+       &lt 3 TAB           &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y          &kp U      &kp I    &kp O                    &kp P    &kp BACKSLASH
 &kp LEFT_CONTROL  &mt LEFT_ALT A  &kp S  &kp D     &kp F      &kp G      &kp H          &kp J      &kp K    &kp L  &mt RIGHT_ALT SEMICOLON          &kp SQT
   &kp LEFT_SHIFT           &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N          &kp M  &kp COMMA  &kp DOT                 &kp FSLH  &kp RIGHT_SHIFT
                                          &mo 1  &kp LCMD  &kp SPACE    &kp RET  &kp BACKSPACE      &mo 2
@@ -62,10 +62,10 @@
 
             label = "Raise";
             bindings = <
-         &kp ESC        &trans   &kp EXCL   &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY   &kp KP_PLUS
-          &trans        &trans  &kp COLON  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp DOLLAR  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_6    &kp KP_DIVIDE  &kp KP_MINUS
-&kp LEFT_CONTROL  &kp LEFT_ALT     &trans     &trans         &kp LESS_THAN       &kp GREATER_THAN      &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_0        &trans
-                                              &trans                &trans                 &trans         &trans        &trans        &trans
+       &kp GRAVE  &kp UNDERSCORE        &kp EXCL         &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY   &kp KP_PLUS
+          &trans     &kp AT_SIGN       &kp COLON        &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp DOLLAR  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_6    &kp KP_DIVIDE  &kp KP_MINUS
+&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_BRACE  &kp RIGHT_BRACE         &kp LESS_THAN       &kp GREATER_THAN      &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_0        &trans
+                                                           &trans                &trans                 &trans         &trans        &trans        &trans
             >;
         };
 
